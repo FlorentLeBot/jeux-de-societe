@@ -7,6 +7,7 @@ class PostModel extends Model{
     {
         $this->table = "articles";
         $this->getConnection();
+        //var_dump($this->db); die();
     }
 
 
