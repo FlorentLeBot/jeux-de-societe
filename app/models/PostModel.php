@@ -5,9 +5,9 @@ class PostModel extends Model{
 
     public function __construct()
     {
-        $this->table =  "articles";
-        $this->db;
+        $this->table = "articles";
+        $this->getConnection();
     }
 
-    
+
 }
