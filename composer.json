@@ -2,7 +2,7 @@
     "name": "kercode/jeux-de-societe",
     "autoload": {
         "psr-4": {
-            "Kercode\\JeuxDeSociete\\": "src/"
+            "App\\": "app/"
         }
     },
     "authors": [
