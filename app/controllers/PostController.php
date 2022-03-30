@@ -2,9 +2,10 @@
 
 // namespace App\controllers;
 
-class PostController{
+class PostController extends Controller{
 
     public function index(){
+        $this->loadModel('PostModel');
         echo "accueil";
     }
 }

@@ -4,6 +4,9 @@
 // je remplace index.php par rien et je récupére le chemin dans la superglobale $_SERVER
 define('ROOT', str_replace('index.php', '', $_SERVER['SCRIPT_FILENAME']));
 
+require_once(ROOT.'app/Models/Model.php');
+require_once(ROOT.'app/Controllers/Controller.php');
+
 // séparation des paramètres de l'url
 $params = explode('/', $_GET['p']);
 // var_dump($params);
